@@ -1,11 +1,5 @@
 import { useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
-import chatImage from './images/chat.png';
-import emojiHappyImage from './images/emoji-very-happy-alt.png';
-import megaphoneImage from './images/megaphone.png';
-import rocketImage from './images/rocket-launch.png';
-import starImage from './images/star.png';
-import userGroupImage from './images/user-group.png';
 
 const Services = () => {
   useEffect(() => {
@@ -16,7 +10,6 @@ const Services = () => {
       scale: 1.05,
     });
 
-    // Clean up the tilt effect on unmount
     return () => {
       elements.forEach((element) => {
         element.vanillaTilt.destroy();
@@ -30,32 +23,32 @@ const Services = () => {
     <div className="box">
       <div className="item tilt">
         <h2>Community Management</h2>
-        <img src={chatImage} alt="Community Management" />
+        <img src="/chat.png" alt="Community Management" />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
       </div>
       <div className="item tilt">
         <h2>Affiliate Marketing</h2>
-        <img src={emojiHappyImage} alt="Affiliate Marketing" />
+        <img src="/emoji-very-happy-alt.png" alt="Affiliate Marketing" />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
       </div>
       <div className="item tilt">
         <h2>Growth Marketing</h2>
-        <img src={megaphoneImage} alt="Growth Marketing" />
+        <img src="/megaphone.png" alt="Growth Marketing" />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
       </div>
       <div className="item tilt">
         <h2>Ecommerce</h2>
-        <img src={rocketImage} alt="Ecommerce" />
+        <img src="/rocket-launch.png" alt="Ecommerce" />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
       </div>
       <div className="item tilt">
         <h2>SEO</h2>
-        <img src={starImage} alt="SEO" />
+        <img src="/star.png" alt="SEO" />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
       </div>
       <div className="item tilt">
         <h2>Branding</h2>
-        <img src={userGroupImage} alt="Branding" />
+        <img src="/user-group.png" alt="Branding" />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
       </div>
       <div className="shape one"></div>
