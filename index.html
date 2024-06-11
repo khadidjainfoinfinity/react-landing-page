@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/agency-landing-page/bow.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXUS Agency</title>
+    <script type="module" crossorigin src="/agency-landing-page/assets/index-BVI4zxLN.js"></script>
+    <link rel="stylesheet" crossorigin href="/agency-landing-page/assets/index-BX8z4PUP.css">
+  </head>
+  <body>
+
+    <header id="head">
+      <div class="logo">logo</div>
+      <div class="menu"> <button onclick="myFunction()"> <img src="/agency-landing-page/menu-burger.png" alt=""></button></div>
+      <ul class="nav">
+          <li><a href="#about">about</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#root">Reviews</a></li>
+          <li><a href="#contact">contact</a></li>
+      </ul>
+
+      <div class="phone" id="myDIV">
+        <ul>
+          <li><a href="#about">about</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#root">Reviews</a></li>
+          <li><a href="#contact">contact</a></li>
+      </ul>
+      </div>
+  </header>
+  
+  <section class="home">
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.5.0/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/X4qgdt1SeuFQG3wa/scene.splinecode" ></spline-viewer>
+  </section>
+
+  <section class="about-sec" id="about">
+  </section>
+ 
+
+  <section class="service" id="services">
+  </section>
+
+  <section class="work" id="root" >
+   
+
+  </section>
+
+  <section class="contacts" id="contact">
+    
+  </section>
+
+  <footer id="footer">
+
+  </footer>
+  
+    <script>
+// script to remove spline watermark xd
+window.onload = function() {
+    var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+    shadowRoot.querySelector('#logo').remove();
+}
+
+
+      function myFunction() {
+      var x = document.getElementById("myDIV");
+      
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } else {
+          x.style.display = "none";
+      }
+  }
+  </script>
+
+  </body>
+</html>
