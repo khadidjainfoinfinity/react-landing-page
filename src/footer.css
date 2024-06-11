@@ -85,14 +85,4 @@ ul{
 }
 }
 
-footer::before{
-	content: "";
-	width: 100%;
-	height: .2vw;
-	background: #b9fdff;
-	transition: .5s ease-in-out;
-	position: absolute;
-	bottom: 0;
-	z-index: -1;
-}
 

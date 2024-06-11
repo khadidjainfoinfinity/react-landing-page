@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <header>
+    <header id="head">
       <div class="logo">logo</div>
       <div class="menu"> <button onclick="myFunction()"> <img src="/menu-burger.png" alt=""></button></div>
       <ul class="nav">
@@ -28,79 +28,17 @@
       </ul>
       </div>
   </header>
+  
   <section class="home">
 <script type="module" src="https://unpkg.com/@splinetool/viewer@1.5.0/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/X4qgdt1SeuFQG3wa/scene.splinecode" ></spline-viewer>
   </section>
 
   <section class="about-sec" id="about">
-      <div class="animated-text">
-          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit. Debitis perspiciatis illo earum veritatis tempora eligendi molestias obcaecati quo eaque ad </h1>
-      </div>
-      <div class="about-main">
-          <h1> about us</h1>
-          <p>Lorem ipsum dolor, Quam excepturi odit itaque facere consequatur alias blanditiis fugiat. Rerum sunt provident nihil architecto, repudiandae tempora delectus laudantium labore at voluptas quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor ullam pariatur, necessitatibus incidunt facere voluptates ipsam, soluta asperiores quo doloribus architecto. t, saepe.</p>
-      </div>
-      <div class="stuff">
-          <div class="item" data-tilt data-tilt-scale="1.02">
-              <h2>27.1k</h2>
-              <span>loremmaaat</span>
-          </div>
-          <div class="item" class="item" data-tilt data-tilt-scale="1.02"><h2>27.1k</h2>
-              <span>loremmaaat</span>
-          </div>
-          <div class="item" class="item" data-tilt data-tilt-scale="1.02"><h2>27.1k</h2>
-              <span>loremmaaat</span>
-          </div>
-          <div class="item" class="item" data-tilt data-tilt-scale="1.02"><h2>27.1k</h2>
-              <span>loremmaaat</span>
-          </div>
-      </div>
-
   </section>
  
 
   <section class="service" id="services">
-    <h1>our services</h1>
-    <div class="box">
-
-      <div class="item">
-        <h2>community management</h2>
-        <img src="/chat.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus </p>
-      </div>
-      <div class="item">        
-        <h2>affiliate marketing</h2>
-        <img src="/emoji-very-happy-alt.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus </p>
-      </div>
-      <div class="item">
-        <h2>growth marketing</h2>
-        <img src="/megaphone.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus </p>
-      
-      </div>
-      <div class="item">
-        <h2>Ecommerce</h2>
-        <img src="/rocket-launch.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus </p>
-      
-      </div>
-      <div class="item">
-        <h2>SEO</h2>
-        <img src="/star.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus </p>
-      
-      </div>
-      <div class="item">
-        <h2>branding</h2>
-        <img src="/user-group.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus </p>
-      
-      </div>
-      <div class="shape one"></div>
-      <div class="shape two"></div>
-    </div>
   </section>
 
   <section class="work" id="root" >
@@ -117,8 +55,14 @@
   </footer>
   
     <script type="module" src="/src/main.jsx"></script>
-    <script src="/src/removethatuglywatermark.js"></script>
     <script>
+// script to remove spline watermark xd
+window.onload = function() {
+    var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+    shadowRoot.querySelector('#logo').remove();
+}
+
+
       function myFunction() {
       var x = document.getElementById("myDIV");
       
