@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 
-import chatImage from './chat.png';
+import chatImage from './public/chat.png';
 import emojiHappyImage from './emoji-very-happy-alt.png';
 import megaphoneImage from './megaphone.png';
 import rocketImage from './rocket-launch.png';
