@@ -1,6 +1,13 @@
 import { useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 
+import chatImage from './chat.png';
+import emojiHappyImage from './emoji-very-happy-alt.png';
+import megaphoneImage from './megaphone.png';
+import rocketImage from './rocket-launch.png';
+import starImage from './star.png';
+import userGroupImage from './user-group.png';
+
 const Services = () => {
   useEffect(() => {
     const elements = document.querySelectorAll('.tilt');
@@ -17,45 +24,45 @@ const Services = () => {
     };
   }, []);
 
- return (
-  <section className="service" id="services">
-    <h1>Our Services</h1>
-    <div className="box">
-      <div className="item tilt">
-        <h2>Community Management</h2>
-        <img src="/chat.png" alt="Community Management" />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+  return (
+    <section className="service" id="services">
+      <h1>Our Services</h1>
+      <div className="box">
+        <div className="item tilt">
+          <h2>Community Management</h2>
+          <img src={chatImage} alt="Community Management" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+        </div>
+        <div className="item tilt">
+          <h2>Affiliate Marketing</h2>
+          <img src={emojiHappyImage} alt="Affiliate Marketing" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+        </div>
+        <div className="item tilt">
+          <h2>Growth Marketing</h2>
+          <img src={megaphoneImage} alt="Growth Marketing" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+        </div>
+        <div className="item tilt">
+          <h2>Ecommerce</h2>
+          <img src={rocketImage} alt="Ecommerce" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+        </div>
+        <div className="item tilt">
+          <h2>SEO</h2>
+          <img src={starImage} alt="SEO" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+        </div>
+        <div className="item tilt">
+          <h2>Branding</h2>
+          <img src={userGroupImage} alt="Branding" />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+        </div>
+        <div className="shape one"></div>
+        <div className="shape two"></div>
       </div>
-      <div className="item tilt">
-        <h2>Affiliate Marketing</h2>
-        <img src="/emoji-very-happy-alt.png" alt="Affiliate Marketing" />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
-      </div>
-      <div className="item tilt">
-        <h2>Growth Marketing</h2>
-        <img src="/megaphone.png" alt="Growth Marketing" />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
-      </div>
-      <div className="item tilt">
-        <h2>Ecommerce</h2>
-        <img src="/rocket-launch.png" alt="Ecommerce" />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
-      </div>
-      <div className="item tilt">
-        <h2>SEO</h2>
-        <img src="/star.png" alt="SEO" />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
-      </div>
-      <div className="item tilt">
-        <h2>Branding</h2>
-        <img src="/user-group.png" alt="Branding" />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
-      </div>
-      <div className="shape one"></div>
-      <div className="shape two"></div>
-    </div>
-  </section>
-);
+    </section>
+  );
 };
 
 export default Services;
