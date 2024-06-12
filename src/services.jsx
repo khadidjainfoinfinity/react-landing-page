@@ -23,32 +23,26 @@ const Services = () => {
       <div className="box">
         <div className="item tilt">
           <h2>Community Management</h2>
-            <img src={`${process.env.PUBLIC_URL}/chat.png`} alt="Community Management" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
           <h2>Affiliate Marketing</h2>
-          <img src="/emoji-very-happy-alt.png" alt="Affiliate Marketing" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
           <h2>Growth Marketing</h2>
-          <img src="/megaphone.png" alt="Growth Marketing" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
           <h2>Ecommerce</h2>
-          <img src="/rocket-launch.png" alt="Ecommerce" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
           <h2>SEO</h2>
-          <img src="/star.png" alt="SEO" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
           <h2>Branding</h2>
-          <img src="/user-group.png" alt="Branding" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="shape one"></div>
