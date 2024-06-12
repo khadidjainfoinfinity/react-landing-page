@@ -24,7 +24,7 @@ const Services = () => {
       <div className="box">
         <div className="item tilt">
           <h2>Community Management</h2>
-          <img src="public/chat.png" alt="Community Management" />
+          <img src="./public/chat.png" alt="Community Management" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
