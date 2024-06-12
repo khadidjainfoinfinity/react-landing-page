@@ -33,6 +33,7 @@ const Services = () => {
           {/* Use imported image variable */}
           <img src={chatImage} alt="Community Management" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
           <h2>Affiliate Marketing</h2>
