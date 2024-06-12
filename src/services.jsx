@@ -1,13 +1,6 @@
 import { useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 
-import chatImage from './public/chat.png';
-import emojiHappyImage from './emoji-very-happy-alt.png';
-import megaphoneImage from './megaphone.png';
-import rocketImage from './rocket-launch.png';
-import starImage from './star.png';
-import userGroupImage from './user-group.png';
-
 const Services = () => {
   useEffect(() => {
     const elements = document.querySelectorAll('.tilt');
@@ -30,7 +23,7 @@ const Services = () => {
       <div className="box">
         <div className="item tilt">
           <h2>Community Management</h2>
-          <img src={chatImage} alt="Community Management" />
+          <img src="https://i.postimg.cc/W37Fqsc3/chat.png" alt="Community Management" />
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga maiores, reprehenderit beatae odit excepturi dicta repellendus</p>
         </div>
         <div className="item tilt">
